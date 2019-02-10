@@ -1,0 +1,5 @@
+main: com.hotmail.AdrianSRJose.base.Main
+name: AnnihilationKits
+version: 2.3.1
+
+loadbefore: [Annihilation, AnnihilationSandbox]
