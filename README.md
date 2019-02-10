@@ -9,8 +9,8 @@ The Source Code of the Annihilation Kits. Using this Source Code you can create 
     - Method: "getDefaultIcon": This method must to return an ItemStack that will be displayed as icon in the Kits Menu.
     - Method: "getFinalLoadout": This method must to return the Loadout player will be using this kit. Example:
     
-    `protected Loadout getFinalLoadout() {
-        return new Loadout().addWoodSword().addWoodPick().addWoodAxe();
-    }`
+    `protected Loadout getFinalLoadout() {`
+        `return new Loadout().addWoodSword().addWoodPick().addWoodAxe();`
+    `}`
         
 4. Now just compile the project and drop it inside the folder "plugins/Annihilation/Kits".
