@@ -9,7 +9,6 @@ The Source Code of the Annihilation Kits. Using this Source Code you can create 
     - Method: "getFinalLoadout": This method must to return the Loadout player will be using this kit. Example:
     
         protected Loadout getFinalLoadout() {
-        
            return new Loadout().addWoodSword().addWoodPick().addWoodAxe();
        }
         
